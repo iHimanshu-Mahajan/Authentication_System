@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (©) 2023 Himanshu Mahajan -->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SecondaryController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #353639;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#2fbd5a" layoutX="57.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music speaks what cannot be expressed, soothes the mind, and gives it rest." textAlignment="CENTER" wrappingWidth="250.0">
+               <font>
+                  <Font name="Verdana Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#ecebe8" layoutX="106.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+               <font>
+                  <Font name="Verdana Bold" size="36.0" />
+               </font>
+            </Text>
+            <Hyperlink layoutX="110.0" layoutY="446.0" onAction="#signin" style="-fx-text-fill: #2fbd5a; -fx-border-color: transparent; -fx-underline: false;" text="Go To Login Page">
+               <font>
+                  <Font name="Verdana Bold" size="14.0" />
+               </font>
+            </Hyperlink>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="82.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="415.0" style="-fx-background-color: #2FBD5A;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="nameTxtField" layoutX="109.0" layoutY="202.0" promptText="Name" style="-fx-background-color: transparent; -fx-border-color: #353639; -fx-border-width: 0px 0px 2px 0px; -fx-prompt-text-fill: #353639;" />
+            <Text fill="#353639" layoutX="126.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+               <font>
+                  <Font name="Verdana Bold" size="22.0" />
+               </font>
+            </Text>
+            <Button layoutX="134.0" layoutY="385.0" mnemonicParsing="false" onAction="#signup" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: #353639;" text="Sign Up" textFill="#2fbd5a">
+               <font>
+                  <Font name="Verdana Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="emailTxtField" layoutX="109.0" layoutY="242.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #353639; -fx-border-width: 0px 0px 2px 0px; -fx-prompt-text-fill: #353639;" />
+            <PasswordField fx:id="passwordTxtField" layoutX="109.0" layoutY="282.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #353639; -fx-border-width: 0px 0px 2px 0px; -fx-prompt-text-fill: #353639;" />
+            <PasswordField fx:id="confirmPasswordTxtField" layoutX="109.0" layoutY="322.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #353639; -fx-border-width: 0px 0px 2px 0px; -fx-prompt-text-fill: #353639;" />
+            <ImageView fitHeight="111.0" fitWidth="100.0" layoutX="125.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../login.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="68.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../mail.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="19.0" fitWidth="20.0" layoutX="75.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="20.0" layoutX="76.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../key.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="20.0" layoutX="76.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../key.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
