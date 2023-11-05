@@ -56,7 +56,7 @@ The `signup.fxml` file represents the sign-up page.
 
 ## Usage
 
-To run the Music App, simply open it in a JavaFX environment and follow the on-screen instructions.
+To run the App, simply open it in a JavaFX environment.
 
 ## Author
 
