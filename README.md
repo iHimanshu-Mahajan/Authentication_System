@@ -1,6 +1,6 @@
-# Music App
+# User Authentication Application
 
-🎵 Music App is a simple JavaFX application that provides user authentication for accessing a music platform. Users can sign in or sign up for an account.
+🔑 User Authentication App is a straight forward JavaFX application that offers user authentication, allowing users to either sign in or create a new account.
 
 ## Features
 
